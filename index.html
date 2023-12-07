@@ -26,20 +26,22 @@
     </div>
     <div>
         <button onclick="shopnow()">shop now</button>
-        <img src="start.jpg" alt="start" style="width: 200px; height:250px;" id="shop now">
+        <img src="start.jpg" alt="start" style="width: 50px; height: 150px; display: none;" id="shop">
         <button onclick="thankyou()">thankyou</button>
-        <img src="end.jpg" alt=" end" style="width: 50px; height: 150px;" id="thankyou">
+        <img src="end.jpg" alt=" end" style="width: 50px; height: 150px; display: none;" id="thankyou">
         </div>
 
     <script>
         function shopnow()
         {
-            document.getElementById("shop now").setAttribute("src" , "start.jpg");
+            window.alert("Bookings are available");
+            document.getElementById("shop").style.display = "block";
         }
 
         function thankyou()
         {
-            document.getElementById("thankyou").setAttribute("src" , "end.jpg");
+            window.alert("Bookings are available");
+            document.getElementById("thankyou").style.display = "block";
         }
 
     </script>
