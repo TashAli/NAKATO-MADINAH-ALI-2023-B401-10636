@@ -1,0 +1,34 @@
+body
+{
+    height: 100%;
+    background-image: url(design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+html
+{
+    height: 100%;
+}
+.content
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+.mat
+{
+    border: 3px solid white;
+    padding: 12px;
+}
+header
+{
+    padding: 3px;
+    border: 3px ;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}

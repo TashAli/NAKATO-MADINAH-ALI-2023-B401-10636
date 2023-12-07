@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHEILA'S PROFILE PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="entire section">
+        <header>
+            <p class="upper">ALBION</p>
+            <p> New Swim</p>
+            <p>Fitness</p>
+            <p>Fitness</p>
+            <p>Men kids</p>
+            <p>Accessories</p>
+            <button onclick="document.getElements('name').innerHTML = 'open'"> search</button>
+        </header>
+    </div>
+    <div class="content">
+        <h1>CLASSIC DESIGNS</h1>
+        <P>PICK YOUR BEST OUT FIT</P>
+        <P>Affordable prices</P>
+        <button> shop now</button>
+    </div>
+    <div>
+        <button onclick="shopnow()">shop now</button>
+        <img src="start.jpg" alt="start" style="width: 200px; height:250px;" id="shop now">
+        <button onclick="thankyou()">thankyou</button>
+        <img src="end.jpg" alt=" end" style="width: 50px; height: 150px;" id="thankyou">
+        </div>
+
+    <script>
+        function shopnow()
+        {
+            document.getElementById("shop now").setAttribute("src" , "start.jpg");
+        }
+
+        function thankyou()
+        {
+            document.getElementById("thankyou").setAttribute("src" , "end.jpg");
+        }
+
+    </script>
+    
+</body>
+</html>
